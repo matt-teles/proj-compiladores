@@ -1,0 +1,9 @@
+module StepVariavel;
+proc main()
+locals
+    i, passo: int;
+start
+    passo := 2;
+    for i := 1 to 5 step passo do
+        print(i);
+end

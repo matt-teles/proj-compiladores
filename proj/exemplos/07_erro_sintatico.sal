@@ -1,0 +1,8 @@
+module ErroSintatico;
+proc main()
+locals
+    x: int;
+start
+    x := 10
+    print(x);
+end

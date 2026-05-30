@@ -1,0 +1,7 @@
+module ErroSemantico;
+proc main()
+locals
+    ativo: bool;
+start
+    ativo := 10;
+end

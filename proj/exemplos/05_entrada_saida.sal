@@ -1,0 +1,8 @@
+module EntradaSaida;
+proc main()
+locals
+    numero: int;
+start
+    scan(numero);
+    print(numero * numero);
+end

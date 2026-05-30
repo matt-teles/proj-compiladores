@@ -1,0 +1,13 @@
+module Quadrado;
+fn quadrado(x: int): int
+start
+    ret x * x;
+end
+proc main()
+locals
+    numero, resultado: int;
+start
+    numero := 7;
+    resultado := quadrado(numero);
+    print(resultado);
+end

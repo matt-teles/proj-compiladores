@@ -1,0 +1,25 @@
+module ControleFluxo;
+globals
+    limite: int;
+proc main()
+locals
+    i, soma: int;
+start
+    limite := 5;
+    soma := 0;
+    for i := 1 to limite step 2 do
+    start
+        soma := soma + i;
+        print(i);
+    end;
+    if (soma = 9)
+        print(100)
+    else
+        print(0);
+    match (soma)
+        when 0 => print(0);
+        when 1, 3, 5 => print(1);
+        when 6..10 => print(2);
+        otherwise => print(-1);
+    end;
+end

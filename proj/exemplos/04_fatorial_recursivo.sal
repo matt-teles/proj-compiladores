@@ -1,0 +1,12 @@
+module Fatorial;
+fn fatorial(n: int): int
+start
+    if (n = 0)
+        ret 1
+    else
+        ret n * fatorial(n - 1);
+end
+proc main()
+start
+    print(fatorial(5));
+end

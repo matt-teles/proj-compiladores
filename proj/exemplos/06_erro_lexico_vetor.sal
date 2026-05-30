@@ -1,0 +1,7 @@
+module VetorNaoPermitido;
+proc main()
+locals
+    valores[3]: int;
+start
+    print(0);
+end
